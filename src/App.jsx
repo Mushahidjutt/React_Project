@@ -31,7 +31,7 @@ function App() {
           <div className="text-center space-y-4">
             <h1 className=" text-3xl font-bold p-8"> Counter </h1>
            <test/>
-            <p>Count is {count}</p>
+            <p>Count is : {count}</p>
 
             <Button
               onClick={() => setCount(count + 1)}
@@ -50,10 +50,10 @@ function App() {
               customClasses="bg-red-500"
             />
 
-            <div className="font-bold text-3xl mt-8">Text Shown in Field </div>
+            <div className="font-bold text-3xl mt-8">Text Show in Field </div>
 
             <div>
-              <h1 className="font-bold">Enter Some Words </h1>
+              <h1 className="font-bold">Enter Sentence to view </h1>
               <input className="border-2 bg-blue-100" type="text" value={text} 
               onChange={(e)=>setText(e.target.value)}
               />
